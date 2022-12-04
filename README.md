@@ -55,6 +55,6 @@
 ## [Tailwind CSS Assignments](./Tailwind%20CSS%20Assignments/README.md)
 
 1. ### [VS Code Clone](./Tailwind%20CSS%20Assignments/vscode-clone/)
-   ![Preview Image](./Tailwind%20CSS%20Assignments/vscode-clone/output.png)
+   ![Preview Image](./Tailwind%20CSS%20Assignments/vscode-clone/preview.gif)
    </br>
    </br>
