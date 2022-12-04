@@ -1,0 +1,204 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  height: 20vh;
+  padding: 20px 7%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav img {
+  height: 50px;
+}
+
+.list {
+  display: flex;
+  list-style: none;
+}
+
+
+.list li:first-child {
+  font-weight: 700;
+  font-size: 28px;
+}
+
+.list-item {
+  margin-right: 50px;
+  font-family: "Orbitron";
+  font-size: 22px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+
+.button-group {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-icon svg {
+  width: 28px;
+  height: 28px;
+}
+
+.nav-button {
+  background-color: #FFFFFF;
+  color: #464444;
+  font-family: "Poppins";
+  font-size: 22px;
+  padding: 2px 4px;
+  border-radius: 14px;
+  width: 160px;
+  height: 45px;
+  margin-left: 15px;
+  outline: none;
+  border: 3px solid #000000;
+  cursor: pointer;
+}
+
+
+
+
+
+
+.hero-container {
+  display: flex;
+  position: relative;
+  height: 70vh;
+  justify-content: space-between;
+  margin: 20px 7%;
+}
+
+.hero-container > span {
+  position: absolute;
+}
+
+.hero-container > div > img {
+  height: 90%;
+}
+
+.globe {
+  top: -50px;
+  right: 720px;
+}
+
+.square {
+  z-index: -1;
+  bottom: -10px;
+  left: 140px;
+}
+
+
+.hero-container > span:nth-child(2) {
+  top: 0;
+  right: 0;
+}
+
+.hero-container > span:nth-child(2) img {
+  width: 60px;
+  height: 60px;
+}
+
+.hero-container > span:nth-child(3) {
+  bottom: 15px;
+  right: 800px;
+}
+
+.hero-container > span:nth-child(3) img {
+  width: 45px;
+  height: 45px;
+}
+
+.hero-container-right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 60%;
+  margin-top: 120px;
+}
+
+.hero-heading {
+  font-family: "Orbitron";
+  font-weight: 700;
+  font-size: 60px;
+}
+
+
+.hero-description {
+  font-family: "Poppins";
+  font-size: 16px;
+  color: #3d3d3d;
+  margin-top: 60px;
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center; 
+}
+
+
+
+
+.hero-container-right div button {
+  margin-top: 90px;
+  padding: 4px 8px;
+  font-family: "Orbitron";
+  font-size: 20px;
+  font-weight: 500;
+  border-radius: 10px;
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.button-email {
+  width: 220px;
+  color: #5f5e5e;
+  background-color: #FFFFFF;
+}
+
+
+.button-join {
+  color: #FFFFFF;
+  background-color: #000000;
+}
+
+
+
+
+
+
+
+
+
+.hero-container-right > div:last-child {
+  display: flex;
+  flex-direction: column;
+  margin-top: auto;
+  align-items: center;
+}
+
+
+.contact-heading {
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 25px;
+  color: #515151;
+}
+
+
+.icons {
+  display: flex;
+  margin-top: 15px;
+}
+
+
+.icons span {
+  margin-right: 20px;
+  cursor: pointer;
+}

@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./assets/logo.png" type="image/x-icon" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Visual Studio Code - Code Editing. Redefined</title>
+  </head>
+  <body class="box-border">
+    <div>
+      <!-- Navbar -->
+      <nav class="bg-[#2C2C32] h-[50px] flex px-[20%] fixed inset-0">
+        <div class="flex items-center">
+          <div class="w-6 h-6">
+            <img src="./assets/logo.png" alt="logo" />
+          </div>
+          <a class="text-white text-xl mx-3 mr-6" href="/"
+            >Visual Studio Code</a
+          >
+          <div>
+            <ul class="flex text-[#9d9d9d] font-medium">
+              <li class="mr-6 hover:text-white cursor-pointer">Docs</li>
+              <li class="mr-6 hover:text-white cursor-pointer">Updates</li>
+              <li class="mr-6 hover:text-white cursor-pointer">Blog</li>
+              <li class="mr-6 hover:text-white cursor-pointer">API</li>
+              <li class="mr-6 hover:text-white cursor-pointer">Extensions</li>
+              <li class="mr-6 hover:text-white cursor-pointer">FAQ</li>
+              <li class="mr-6 hover:text-white cursor-pointer">Learn</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="ml-auto bg-[#3D3D42] w-48 flex items-center justify-center hover:bg-[#525257] hover:outline hover:outline-1 hover:outline-[rgba(255,255,255,.5)] focus-within:outline focus-within:outline-1 focus-within:outline-[rgba(255,255,255,.5)]">
+          <img
+            class="w-4 h-4 mx-2"
+            src="./assets/search.svg"
+            alt="search-icon"
+          />
+          <input
+            class="bg-inherit text-white w-36 text-sm border-0 outline-0 placeholder:text-white"
+            spellcheck="false"
+            type="text"
+            placeholder="Search Docs"
+            name="search"
+            id="search-box"
+          />
+        </div>
+        <div class="bg-[#0066b8] w-36 flex items-center justify-start hover:bg-[#005ba4] cursor-pointer">
+          <img
+            class="w-4 h-4 mx-3"
+            src="./assets/download.svg"
+            alt="download-icon"
+          />
+          <button class="text-white font-medium">Download</button>
+        </div>
+      </nav>
+
+      <!-- Version Update section -->
+      <section
+        class="bg-[#25252B] flex items-center justify-center h-11 mt-[50px] text-white"
+      >
+        <a
+          class="text-[#0098ff] hover:underline"
+          href="https://code.visualstudio.com/updates"
+          >Version 1.73</a
+        >
+        <p>
+          &nbsp; is now available! Read about the new features and fixes from
+          October.
+        </p>
+      </section>
+
+      <!-- Hero Section -->
+      <section class="bg-[#2C2C32] px-[20%] flex h-[650px] justify-center">
+        <div class="flex flex-col items-center text-white">
+          <h1 class="text-5xl flex flex-col text-center mt-16 font-light">
+            Code editing.
+            <strong>Redefined.</strong>
+          </h1>
+
+          <p class="text-[rgba(255,255,255,.6)] mt-4 text-[1.1rem] font-normal">Free. Built on open source. Runs everywhere.</p>
+
+          <div class="mt-5 p-3 flex items-center gap-0.5 relative">
+            <button class="text-lg font-medium bg-[#0066b8] h-16 w-60 pt-1 flex flex-col items-center justify-center hover:bg-[#005ba4]">
+              Download for Windows
+              <small class="font-light -mt-1">Stable Build</small>
+            </button>
+
+            <button class="bg-[#0066b8] h-16 w-10 flex items-center justify-center hover:bg-[#005ba4]">
+              <img class="h-4" src="./assets/arrow-down-sign-to-navigate.png" alt="down-arrow" />
+            </button>
+
+            <div class="absolute -bottom-10 bg-[#25252B] flex items-center h-9 w-[280px] px-3 rounded-md text-sm">
+              <a class="text-[#0098ff] hover:underline" href="https://vscode.dev">Web</a>
+              <span>,&nbsp;</span>
+              <a class="text-[#0098ff] hover:underline" href="https://code.visualstudio.com/insiders"
+                >Insiders edition
+              </a>
+              <span class="text-[rgba(255,255,255,.6)]">,&nbsp;or&nbsp;</span>
+              <a class="text-[#0098ff] hover:underline" href="https://code.visualstudio.com/#alt-downloads"
+                >other platforms</a
+              >
+              <span class="w-4 h-4 absolute bg-[#25252B] right-3 -top-1.5 rotate-45"></span>
+            </div>
+          </div>
+
+          <p class="mt-14 text-xs text-[rgba(255,255,255,.6)]">By using VS Code, you agree to its</p>
+          <a class="text-xs text-[#0098ff] hover:underline" href="https://code.visualstudio.com/#home-terms"
+            >license and privacy statement.</a
+          >
+        </div>
+
+        <div class="ml-10">
+          <img
+            class="h-[600px] mt-8"
+            src="./assets/home-screenshot-win-lg.png"
+            alt="home-screenshot-win-lg"
+          />
+        </div>
+      </section>
+
+      <!-- Value section -->
+      <section class="h-32 px-[20%] flex items-center justify-between text-xl">
+
+        <div class="group hover:bg-[#E3E3E3] w-64 h-32 flex justify-center items-center">
+          <a href="#meet-intellisense">
+            <div class="bg-[url('./assets/valueprops-top-sprite.svg')] bg-no-repeat bg-[0_0] w-[50px] h-[50px] mb-[1rem] m-auto group-hover:bg-[0_-3.3rem]"></div>
+            IntelliSense
+          </a>
+        </div>
+
+        <div class="group hover:bg-[#E3E3E3] w-64 h-32 flex justify-center items-center">
+          <a href="#powerful-debugging">
+            <div class="bg-[url('./assets/valueprops-top-sprite.svg')] bg-no-repeat bg-[-3.2rem_0] w-[50px] h-[50px] mb-[1rem] m-auto group-hover:bg-[-3.2rem_-3.3rem]"></div>
+            Run and Debug
+          </a>
+        </div>
+
+        <div class="group hover:bg-[#E3E3E3] w-64 h-32 flex justify-center items-center">
+          <a href="#built-in-git">
+            <div class="bg-[url('./assets/valueprops-top-sprite.svg')] bg-no-repeat bg-[-6.5rem_0] w-[50px] h-[50px] mb-[1rem] m-auto group-hover:bg-[-6.5rem_-3.3rem]"></div>
+            Built-in Git
+          </a>
+        </div>
+
+        <div class="group hover:bg-[#E3E3E3] w-64 h-32 flex justify-center items-center">
+          <a href="#hundreds-of-extensions">
+            <div class="bg-[url('./assets/valueprops-top-sprite.svg')] bg-no-repeat bg-[-9.8rem_0] w-[50px] h-[50px] mb-[1rem] m-auto group-hover:bg-[-9.8rem_-3.3rem]"></div>
+            Extensions
+          </a>
+        </div>
+      </section>
+
+      <!-- Social Comments -->
+      <section class="h-[346px] bg-[#F5F5F5] px-[20%]">
+
+      </section>
+
+      <!-- meet-intellisense -->
+      <section id="meet-intellisense" class="h-[383px] bg-[#FFFFFF] px-[20%] flex items-center justify-between">
+        <img src="./assets/home-intellisense.svg" alt="home-intellisense">
+        <div class="w-3/5">
+          <h1 class="text-3xl font-light mb-20">Meet IntelliSense.</h1>
+          <p class="text-lg">Go beyond syntax highlighting and autocomplete with IntelliSense, which provides smart completions based on variable types, function definitions, and imported modules.</p>
+        </div>
+      </section>
+
+      <!-- powerful-debugging -->
+      <section id="powerful-debugging" class="h-[383px] bg-[#F5F5F5] px-[20%]">
+      </section>
+    </div>
+  </body>
+</html>
