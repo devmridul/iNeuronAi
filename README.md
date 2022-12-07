@@ -55,6 +55,7 @@
 ## [Tailwind CSS Assignments](./Tailwind%20CSS%20Assignments/README.md)
 
 1. ### [VS Code Clone](./Tailwind%20CSS%20Assignments/vscode-clone/)
+   ### [Deployed URL](https://clone-vscode.netlify.app)
    ![Preview Image](./Tailwind%20CSS%20Assignments/vscode-clone/preview.gif)
    </br>
    </br>
